@@ -3,10 +3,9 @@ Here you'll find all the MiniZinc files that solve the problems of the [Autumn 2
 
 ## What's Inside
 Here's a quick rundown of the files you'll find in this repository:
- Markup : - Bullet list
-              - Nested bullet
-                  - Sub-nested bullet etc
-          - Bullet list item 2 
+ - minizinc_files folder containing all minizinc implementations of problems 
+             
+- report_EXTENDED_VERSION.pdf is the extended version of the report containing a section with the solutions to the above-mentioned extra exercises
 
 
 
