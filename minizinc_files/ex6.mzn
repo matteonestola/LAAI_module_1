@@ -10,12 +10,12 @@ var int : sum2;
 var int : sum3;
 var int : f_sum;
 
-% definisco gli angoli del triangolo
+% defining the corners of the triangle
 constraint (side1[1] = side3[4] /\
             side1[4] = side2[4] /\
             side3[1] = side2[1]);
 
-% definisco che tutti i numeri del triangolo devono essere diversi
+% all numbers in the triangle must be different
 constraint all_different([side1[1],
                           side1[2],
                           side1[3],
