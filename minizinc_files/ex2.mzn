@@ -1,6 +1,8 @@
 % exercise 2
 include "globals.mzn"; 
 
+% the top-left node is 1 and the bottom-right is 16
+
 int: n = 16; % number of nodes
 int: num_edges = 42; % number of links 
 int: start = 1; % starting node
@@ -8,7 +10,7 @@ int: target = 13; % ending node
  
 
 array[1..n] of var 0..n: x;
-%graph represent all the possible links between nodes 
+%graph represent all the possible links between nodes , in this case, the elements of graph are integers ranging from 1 to n
 array[1..num_edges, 1..2] of 1..n: graph = array2d(1..num_edges, 1..2, 
    [
       1,2, 1,5, 2,3, 2,6, 3,2, 3,7, 4,5, 4,9, 5,4, 5,6, 5,10, 6,2, 6,7, 6,5, 6,11, 7,3, 7,6, 7,8, 7,12,
