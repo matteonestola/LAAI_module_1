@@ -9,9 +9,9 @@ var 0..9: c4;
 
 %constraint num = (c1*(1000) + c2*(100) + c3*(10)+ c4*(1))
 
-constraint c1 != 0; % prima cifra diversa da 0
+constraint c1 != 0; % fisrt digit different from 0
 
-% le cifre devono essere diverse tra loro
+% the digits must be different between each other.
 
 constraint all_different([c1,c2,c3,c4]);
 
